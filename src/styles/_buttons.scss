@@ -1,0 +1,41 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 0 var(--space-md);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--transition), border-color var(--transition), color var(--transition);
+
+  &:focus-visible {
+    outline: 2px solid var(--color-accent-on-dark);
+    outline-offset: 3px;
+  }
+}
+
+// Pieno azzurro: azione principale (Prenota, WhatsApp)
+.btn--accent {
+  background-color: var(--color-accent);
+  color: #fff;
+
+  &:hover {
+    background-color: var(--color-accent-hover);
+  }
+}
+
+// Bordato su sfondo scuro: azione secondaria (Chiama)
+.btn--outline-light {
+  border-color: #64748B;
+  color: #fff;
+
+  &:hover {
+    border-color: #fff;
+  }
+}
