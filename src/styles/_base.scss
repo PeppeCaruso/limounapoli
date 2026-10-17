@@ -1,0 +1,14 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; line-height: 1.1; }
+img { max-width: 100%; display: block; }
+.container { max-width: var(--container); margin: 0 auto; padding-inline: var(--space-md); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

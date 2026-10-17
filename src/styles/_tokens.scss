@@ -1,0 +1,29 @@
+:root {
+  // Colori
+  --color-primary: #0F172A;        // header, footer, sezioni scure
+  --color-primary-soft: #1E293B;
+  --color-accent: #0369A1;         // pulsanti, link, icone
+  --color-accent-hover: #075985;
+  --color-accent-on-dark: #38BDF8; // etichette su sfondo scuro
+  --color-bg: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F1F5F9;
+  --color-text: #020617;
+  --color-text-muted: #334155;
+  --color-text-on-dark: #CBD5E1;
+  --color-border: #CBD5E1;
+
+  // Tipografia
+  --font-heading: 'Cormorant', Georgia, serif;
+  --font-body: 'Montserrat', system-ui, sans-serif;
+
+  // Spaziature e layout
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 96px;
+  --container: 1200px;
+  --radius: 2px;
+  --transition: 200ms ease;
+}
