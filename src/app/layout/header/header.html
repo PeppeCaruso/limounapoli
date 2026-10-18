@@ -3,7 +3,7 @@
 
     <nav class="nav-links">
         @for (link of links; track link.fragment) {
-            <a routerLink="/" [fragment]="link.fragment">{{ link.fragment }}</a>
+            <a routerLink="/" [fragment]="link.fragment">{{ link.label }}</a>
         }
         <a class="btn btn--accent" href="tel:+390000000000">Prenota</a>
     </nav>
