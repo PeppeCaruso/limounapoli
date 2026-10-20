@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
-  imports: [],
   selector: 'app-services',
-  styleUrl: './services.scss',
+  imports: [NgOptimizedImage],
   templateUrl: './services.html',
+  styleUrl: './services.scss',
 })
 export class Services {}
