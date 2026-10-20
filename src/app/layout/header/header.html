@@ -1,5 +1,13 @@
 <header class="header-container">
-    <a class="logo" routerLink="/">Limounapoli</a>
+    <a class="logo" routerLink="/">
+        <img
+            ngSrc="/images/limounapoli_logo.png"
+            width="800"
+            height="200"
+            priority
+            alt="Limounapoli"
+        />
+    </a>
 
     <nav class="nav-links">
         @for (link of links; track link.fragment) {

@@ -9,11 +9,14 @@
 }
 
 .logo {
-    color: #fff;
-    text-decoration: none;
-    font-family: var(--font-heading);
-    font-size: 28px;
-    font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+
+  img {
+    height: 75px;
+    width: auto;
+    display: block;
+  }
 }
 
 .nav-links {
